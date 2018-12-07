@@ -1,0 +1,7 @@
+---
+- name: XP - infrastructure as Code
+  hosts: all
+  gather_facts: no
+  roles:
+    - kibana
+    

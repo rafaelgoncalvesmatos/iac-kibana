@@ -1,0 +1,7 @@
+---
+# tasks file for roles/directory
+- name: Instalando kibana
+  yum:
+    name: kibana
+    state: present
+
